@@ -5,6 +5,10 @@
 
 <div class="wrap">
   <header>
+    <nav class="site-nav">
+      <a href="index.html" aria-current="page">Take the quiz</a>
+      <a href="check.html">Check an image</a>
+    </nav>
     <h1>Is It AI?</h1>
     <p class="tagline">A quick quiz to sharpen your eye against AI-generated photos — the same kind used in romance scams, fake KYC verification, and business social engineering.</p>
   </header>
@@ -40,8 +44,9 @@
       <h3>Tools you can use right now</h3>
       <ul class="tool-list">
         <li><strong>Reverse image search</strong> — <a href="https://images.google.com" target="_blank" rel="noopener">Google Images</a> or <a href="https://tineye.com" target="_blank" rel="noopener">TinEye</a>. If the "person" turns out to be a stock photo, a different name, or appears on a dozen dating profiles, that's your answer.</li>
-        <li><strong>AI image detectors</strong> — <a href="https://www.aiornot.com" target="_blank" rel="noopener">AI or Not</a>, <a href="https://hivemoderation.com/ai-generated-content-detection" target="_blank" rel="noopener">Hive Moderation</a>, or <a href="https://illuminarty.ai" target="_blank" rel="noopener">Illuminarty</a> — upload an image and get a probability score. Treat the score as a strong hint, not a verdict.</li>
-        <li><strong>Content credentials / watermarks</strong> — <a href="https://contentcredentials.org/verify" target="_blank" rel="noopener">Content Credentials Verify</a> checks for a C2PA tamper-evident label that some AI tools (and cameras) now attach. No label doesn't prove it's real, but a valid label is good evidence either way.</li>
+        <li><strong>Check the file for AI labels</strong> — <a href="check.html">Check an image</a> on this site reads Content Credentials (C2PA) and metadata labels that ChatGPT, Gemini, Adobe Firefly and others add to their images. It runs in your browser, so your photo is never uploaded. No label doesn't prove it's real, but a label is strong evidence it's AI.</li>
+        <li><strong>Invisible watermarks</strong> — <a href="https://synthid.com" target="_blank" rel="noopener">SynthID Detector</a> from Google checks for hidden watermarks that survive screenshots and re-saving. It detects images from Google, OpenAI, NVIDIA, and Kakao tools. Free with a Google account; daily limits apply.</li>
+        <li><strong>AI image detectors</strong> — <a href="https://www.zerogpt.com/ai-image-detector" target="_blank" rel="noopener">ZeroGPT AI Image Detector</a> gives a likelihood score based on how the image looks. Treat the score as a hint, not a verdict.</li>
         <li><strong>Metadata check</strong> — Real camera photos often carry EXIF data (camera model, GPS, timestamp). Many AI tools strip metadata entirely, and most messaging apps strip it too — so absence of EXIF is common and not proof by itself, but a photo claiming to be "just took this on my phone" with zero metadata and no compression artifacts is worth a second look.</li>
       </ul>
 

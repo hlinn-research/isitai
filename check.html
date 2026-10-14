@@ -1,0 +1,67 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Is It AI? — Check an Image</title>
+<link rel="stylesheet" href="styles.css" />
+
+<div class="wrap">
+  <header>
+    <nav class="site-nav">
+      <a href="index.html">Take the quiz</a>
+      <a href="check.html" aria-current="page">Check an image</a>
+    </nav>
+    <h1>Check an Image</h1>
+    <p class="tagline">Look inside a photo for AI labels, Content Credentials, and camera details. The check runs entirely in your browser — your image is never uploaded anywhere.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <label id="dropzone" class="dropzone" for="file-input">
+        <input id="file-input" type="file" accept="image/*,.heic,.heif,.avif" />
+        <strong>Choose an image</strong> or drag one here
+        <span class="dropzone-hint">JPG, PNG, WebP, HEIC, AVIF</span>
+      </label>
+    </section>
+
+    <section id="report" class="card hidden">
+      <div class="report-head">
+        <img id="preview" alt="The image being checked" />
+        <div>
+          <p id="file-name" class="file-name"></p>
+          <div id="verdict" class="verdict"></div>
+        </div>
+      </div>
+
+      <h3>Content Credentials (C2PA)</h3>
+      <div id="c2pa-out" class="finding-block"></div>
+
+      <h3>AI labels in the file's metadata</h3>
+      <div id="labels-out" class="finding-block"></div>
+
+      <h3>Camera &amp; file details</h3>
+      <div id="camera-out" class="finding-block"></div>
+    </section>
+
+    <section class="card">
+      <h2>Go further</h2>
+      <p>This page only reads labels stored <em>in</em> the file. These free tools look at the pixels themselves:</p>
+      <ul class="tool-list">
+        <li><strong><a href="https://synthid.com" target="_blank" rel="noopener">SynthID Detector</a></strong> (Google) — checks for invisible watermarks that survive screenshots and re-saving. Detects images from Google, OpenAI, NVIDIA, and Kakao tools. Free with a Google account; daily limits apply.</li>
+        <li><strong><a href="https://www.zerogpt.com/ai-image-detector" target="_blank" rel="noopener">ZeroGPT AI Image Detector</a></strong> — gives a likelihood score based on how the image looks. Treat the score as a hint, not a verdict.</li>
+        <li><strong>Reverse image search</strong> — <a href="https://images.google.com" target="_blank" rel="noopener">Google Images</a> or <a href="https://tineye.com" target="_blank" rel="noopener">TinEye</a>. Finds where else the photo appears online, under what names.</li>
+      </ul>
+      <p class="note">These services upload your image to their servers. Don't send them photos you wouldn't want to share.</p>
+    </section>
+
+    <section class="card">
+      <h2>What this can and can't tell you</h2>
+      <ul class="tool-list">
+        <li><strong>An AI label is strong evidence.</strong> Tools like ChatGPT, Gemini, and Adobe Firefly write these labels on purpose.</li>
+        <li><strong>No label proves nothing.</strong> Screenshots, re-saving, and most social media and messaging apps strip this information. A scammer's image will usually have none.</li>
+        <li><strong>Plain metadata can be faked or copied.</strong> Content Credentials are cryptographically signed, so they're much harder to forge — but the absence of them still says nothing.</li>
+      </ul>
+    </section>
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/exifr@7.1.3/dist/full.umd.js"></script>
+<script src="check.js"></script>
