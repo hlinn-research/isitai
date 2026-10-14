@@ -1,21 +1,106 @@
 {
   "ai": [
-    { "file": "images/ai/sample1.jpg", "credit": "" },
-    { "file": "images/ai/sample2.jpg", "credit": "" },
-    { "file": "images/ai/sample3.jpg", "credit": "" },
-    { "file": "images/ai/sample4.jpg", "credit": "" },
-    { "file": "images/ai/sample5.jpg", "credit": "" }
+    {
+      "file": "images/ai/24593733-a18c-4b58-b59f-b8100fa4583a.png",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/curly.webp",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/family.png",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/free_cookies_news.png",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/news_desk.png",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/protest.png",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/rafting.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/screenshot_2026-09-19.png",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/womanwithid.webp",
+      "credit": ""
+    }
   ],
   "real": [
-    { "file": "images/real/sample1.jpg", "credit": "" },
-    { "file": "images/real/sample2.jpg", "credit": "" },
-    { "file": "images/real/sample3.jpg", "credit": "" },
-    { "file": "images/real/sample4.jpg", "credit": "" },
-    { "file": "images/real/sample5.jpg", "credit": "" },
-    { "file": "images/real/sample6.jpg", "credit": "" },
-    { "file": "images/real/sample7.jpg", "credit": "" },
-    { "file": "images/real/sample8.jpg", "credit": "" },
-    { "file": "images/real/sample9.jpg", "credit": "" },
-    { "file": "images/real/sample10.jpg", "credit": "" }
+    {
+      "file": "images/real/15953294365_ca0f371108_b.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/8551937456_9f2c1544d3_w.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/Image_selfie.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/Ron_DeSantis_&_Nikki_Haley_(53460469154).jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/Will.i.am_at_the_2023_World_Economic_Forum_(52693349529)_(cropped).jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/african-american-black-models-african-businessman-business-people-preview.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/african-american-smiling-face-african-preview.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/conference_selfie.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/female-2835524_1280.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/g-24-press-conference-imf-69ms040423107l-83ede4-1024.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/images.jpeg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/laptopwoman.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/new-zealand-young-man-people-8309f8-1024.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/party1.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/roast.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/woman-smiling-female-girl-preview.jpg",
+      "credit": ""
+    }
   ]
 }
