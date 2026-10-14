@@ -191,11 +191,15 @@ fetch("images/manifest.json")
       return;
     }
 
+    // "#new" (from the home page) means: resume an unfinished quiz, otherwise start fresh.
+    const wantsNew = location.hash === "#new";
+    if (wantsNew) history.replaceState(null, "", location.pathname);
+
     const saved = loadState();
     if (saved && !saved.finished) {
       state = saved;
       renderQuestion();
-    } else if (saved && saved.finished) {
+    } else if (saved && saved.finished && !wantsNew) {
       state = saved;
       renderResults();
     } else {

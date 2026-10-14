@@ -1,0 +1,73 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Is It AI? — Spot the Fake</title>
+<link rel="stylesheet" href="styles.css" />
+
+<div class="wrap">
+  <header>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="quiz.html" aria-current="page">Take the quiz</a>
+      <a href="check.html">Check an image</a>
+    </nav>
+    <h1>Is It AI?</h1>
+    <p class="tagline">A quick quiz to sharpen your eye against AI-generated photos — the same kind used in romance scams, fake KYC verification, and business social engineering.</p>
+  </header>
+
+  <main>
+    <section id="quiz" class="card">
+      <div class="progress-row">
+        <span id="progress-label">Question 1 of 5</span>
+        <span id="score-label">Score: 0</span>
+      </div>
+
+      <h2 id="question-prompt">Which one of these three images is AI-generated?</h2>
+
+      <div id="options" class="options-grid"></div>
+
+      <div id="feedback" class="feedback hidden"></div>
+
+      <div class="actions">
+        <button id="next-btn" class="btn primary hidden">Next question</button>
+      </div>
+    </section>
+
+    <section id="results" class="card hidden">
+      <h2>You scored <span id="final-score"></span> out of 5</h2>
+      <p id="results-blurb"></p>
+      <button id="restart-btn" class="btn primary">Start a new quiz</button>
+    </section>
+
+    <section id="guide" class="card hidden">
+      <h2>How to actually tell</h2>
+      <p>None of these methods are perfect on their own. Scammers get better every month — so layer a few of these together, especially before trusting a photo tied to money, identity verification, or a relationship.</p>
+
+      <h3>Tools you can use right now</h3>
+      <ul class="tool-list">
+        <li><strong><a href="check.html">Check an image</a></strong> (on this site) — reads the AI labels that ChatGPT, Gemini, Adobe Firefly and other tools write into their images (Content Credentials and metadata), plus any camera details. It runs in your browser, so your image is never uploaded. An AI label is strong evidence. No label proves nothing: screenshots, re-saving, and most social media and messaging apps strip them, and camera details can be copied or faked.</li>
+        <li><strong><a href="https://synthid.com" target="_blank" rel="noopener">SynthID Detector</a></strong> (Google) — checks for invisible watermarks that survive screenshots and re-saving. Detects images from Google, OpenAI, NVIDIA, and Kakao tools. Free with a Google account; daily limits apply.</li>
+        <li><strong><a href="https://www.zerogpt.com/ai-image-detector" target="_blank" rel="noopener">ZeroGPT AI Image Detector</a></strong> — gives a likelihood score based on how the image looks. Treat the score as a hint, not a verdict.</li>
+        <li><strong>Reverse image search</strong> — <a href="https://images.google.com" target="_blank" rel="noopener">Google Images</a> or <a href="https://tineye.com" target="_blank" rel="noopener">TinEye</a>. Finds where else the photo appears online. If the "person" turns out to be a stock photo, uses a different name, or shows up on a dozen dating profiles, that's your answer.</li>
+      </ul>
+      <p class="note">SynthID, ZeroGPT, and reverse image search upload your image to their servers. Don't send them photos you wouldn't want to share.</p>
+
+      <h3>What to look for with your own eyes</h3>
+      <ul class="tool-list">
+        <li>Hands, ears, and teeth — extra/missing fingers, asymmetric earrings, teeth that blur together.</li>
+        <li>Text in the background (signs, labels, books) that turns into gibberish.</li>
+        <li>Backgrounds that smear, repeat, or don't quite make physical sense (mismatched reflections, impossible shadows).</li>
+        <li>Skin that looks uniformly smooth/waxy, or hair that blends into the background without flyaways.</li>
+        <li>Glasses or jewelry that are subtly asymmetric between left and right.</li>
+      </ul>
+
+      <h3>For romance scams &amp; "KYC" verification specifically</h3>
+      <ul class="tool-list">
+        <li>Ask for a live video call, or a photo doing a specific gesture right now — generated images and pre-recorded deepfakes can't adapt on request.</li>
+        <li>Be suspicious of a profile where every photo looks studio-perfect or inconsistent in lighting/background from shot to shot.</li>
+        <li>Never treat a photo (or even a video call) as sufficient identity verification on its own when money, credentials, or access are involved — pair it with an independent channel (known phone number, official company directory, in-person check).</li>
+      </ul>
+    </section>
+  </main>
+</div>
+
+<script src="app.js?v=2"></script>

@@ -6,7 +6,8 @@
 <div class="wrap">
   <header>
     <nav class="site-nav">
-      <a href="index.html">Take the quiz</a>
+      <a href="index.html">Home</a>
+      <a href="quiz.html">Take the quiz</a>
       <a href="check.html" aria-current="page">Check an image</a>
     </nav>
     <h1>Check an Image</h1>
@@ -43,13 +44,14 @@
 
     <section class="card">
       <h2>Go further</h2>
-      <p>This page only reads labels stored <em>in</em> the file. These free tools look at the pixels themselves:</p>
+      <p>This page only reads labels stored <em>in</em> the file. These free tools go further:</p>
       <ul class="tool-list">
         <li><strong><a href="https://synthid.com" target="_blank" rel="noopener">SynthID Detector</a></strong> (Google) — checks for invisible watermarks that survive screenshots and re-saving. Detects images from Google, OpenAI, NVIDIA, and Kakao tools. Free with a Google account; daily limits apply.</li>
         <li><strong><a href="https://www.zerogpt.com/ai-image-detector" target="_blank" rel="noopener">ZeroGPT AI Image Detector</a></strong> — gives a likelihood score based on how the image looks. Treat the score as a hint, not a verdict.</li>
-        <li><strong>Reverse image search</strong> — <a href="https://images.google.com" target="_blank" rel="noopener">Google Images</a> or <a href="https://tineye.com" target="_blank" rel="noopener">TinEye</a>. Finds where else the photo appears online, under what names.</li>
+        <li><strong>Reverse image search</strong> — <a href="https://images.google.com" target="_blank" rel="noopener">Google Images</a> or <a href="https://tineye.com" target="_blank" rel="noopener">TinEye</a>. Finds where else the photo appears online. If the "person" turns out to be a stock photo, uses a different name, or shows up on a dozen dating profiles, that's your answer.</li>
       </ul>
-      <p class="note">These services upload your image to their servers. Don't send them photos you wouldn't want to share.</p>
+      <p class="note">SynthID, ZeroGPT, and reverse image search upload your image to their servers. Don't send them photos you wouldn't want to share.</p>
+      <p class="note">Want to train your eye too? <a href="quiz.html">Take the quiz</a>.</p>
     </section>
 
     <section class="card">
@@ -57,7 +59,7 @@
       <ul class="tool-list">
         <li><strong>An AI label is strong evidence.</strong> Tools like ChatGPT, Gemini, and Adobe Firefly write these labels on purpose.</li>
         <li><strong>No label proves nothing.</strong> Screenshots, re-saving, and most social media and messaging apps strip this information. A scammer's image will usually have none.</li>
-        <li><strong>Plain metadata can be faked or copied.</strong> Content Credentials are cryptographically signed, so they're much harder to forge — but the absence of them still says nothing.</li>
+        <li><strong>Camera details and other metadata can be copied or faked.</strong> They don't prove a photo is real. Content Credentials are cryptographically signed, so they're much harder to forge — but the absence of them still says nothing.</li>
       </ul>
     </section>
   </main>
