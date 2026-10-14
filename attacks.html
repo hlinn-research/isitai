@@ -1,0 +1,154 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Is It AI? — How Attackers Use AI</title>
+<link rel="stylesheet" href="styles.css" />
+
+<div class="wrap">
+  <header>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="quiz.html">Take the quiz</a>
+      <a href="check.html">Check an image</a>
+      <a href="attacks.html" aria-current="page">How attackers use AI</a>
+    </nav>
+    <h1>How Is AI Used by Attackers?</h1>
+    <p class="tagline">Fake photos, cloned voices, and face-swapped video calls are already being used to steal money, from individuals and from companies. These are real cases, reported by law enforcement, regulators, and journalists.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>What changed</h2>
+      <ul class="tool-list">
+        <li><strong>A face or voice is no longer proof.</strong> Face-swap tools now work live on video calls, and a voice can be cloned from a short clip posted online. The FBI warns that AI "increases the believability" of scams and "can correct for human errors that might otherwise serve as warning signs of fraud," like the spelling and grammar mistakes that used to give scams away.<sup><a href="#src-fbi-genai">[1]</a></sup></li>
+        <li><strong>It's cheap and fast.</strong> One service sold photos of fake passports and driver's licenses for about $15 each.<sup><a href="#src-onlyfake">[2]</a></sup></li>
+        <li><strong>The old scams still work, they just look better.</strong> Romance scams, "it's your boss, wire this now" fraud, and fake-relative emergencies aren't new. AI makes the person on the other end look and sound real.</li>
+      </ul>
+    </section>
+
+    <h2 class="section-title">Scams aimed at individuals</h2>
+
+    <section class="card attack">
+      <h3>Romance and investment scams</h3>
+      <p><strong>How it works:</strong> The scammer builds a profile using AI-generated photos of an attractive person and starts chatting on social media or a dating app. When the victim asks to video chat, the scammer uses a real-time face swap so the "person" appears live on camera. Once trust is built, the conversation turns to a "can't-lose" cryptocurrency investment on a fake trading site.</p>
+      <div class="case">
+        <p class="case-label">Real case · Hong Kong, October 2024</p>
+        <p>Police arrested 27 people running a deepfake romance scam from an office building in Hung Hom. They used AI-generated photos to make first contact, then face-swapping technology on video calls, which police said made victims "trust them unquestioningly." Victims across Hong Kong, mainland China, Taiwan, India, and Singapore lost about US$46 million.<sup><a href="#src-hk">[3]</a></sup></p>
+      </div>
+      <p>Scammers known as "Yahoo Boys" post videos of themselves running these live face-swapped calls, showing the deepfake on screen and their real face beside it.<sup><a href="#src-wired">[4]</a></sup> In the US, people reported losing $3.5 billion to imposter scams in 2025, the most-reported type of fraud.<sup><a href="#src-ftc-imposter">[5]</a></sup></p>
+      <p class="takeaway"><strong>Protect yourself:</strong> A video call doesn't prove someone is who they say they are. Reverse-image search their photos. Never send money or crypto to someone you've only met online, and treat any investment tip from an online love interest as a scam.</p>
+    </section>
+
+    <section class="card attack">
+      <h3>"Family emergency" voice clones</h3>
+      <p><strong>How it works:</strong> You get a call from someone who sounds exactly like your grandchild, child, or partner. They're in trouble (an arrest, an accident) and need money right now, often by wire, crypto, or gift cards. The voice was cloned from a short clip they posted online.<sup><a href="#src-ftc-voice">[6]</a></sup></p>
+      <p class="takeaway"><strong>Protect yourself:</strong> Don't trust the voice. Hang up and call the person back on a number you already know is theirs. The FBI recommends agreeing on a secret word or phrase with your family that a real caller would know.<sup><a href="#src-fbi-genai">[1]</a></sup></p>
+    </section>
+
+    <section class="card attack">
+      <h3>Fake explicit images and sextortion</h3>
+      <p><strong>How it works:</strong> Criminals take ordinary photos from social media, or screenshots from a video chat, and turn them into fake explicit images. Then they threaten to send them to the victim's family and friends unless the victim pays or sends real images. The FBI reports victims include minors.<sup><a href="#src-fbi-sextortion">[7]</a></sup></p>
+      <p class="takeaway"><strong>Protect yourself:</strong> Keep social accounts private and limit who can see your photos. If it happens to you or your child, don't pay, keep the messages, and report it to the FBI at <a href="https://www.ic3.gov" target="_blank" rel="noopener">ic3.gov</a>. Paying rarely makes it stop.</p>
+    </section>
+
+    <section class="card attack">
+      <h3>Fake celebrity endorsements and "proof" videos</h3>
+      <p><strong>How it works:</strong> AI-generated videos of celebrities, executives, or news anchors promote fake investment platforms or giveaways. Scammers also send private photos or short videos to "prove" they're a real person.<sup><a href="#src-fbi-genai">[1]</a></sup></p>
+      <p class="takeaway"><strong>Protect yourself:</strong> A famous face in an ad isn't an endorsement. Look up the investment yourself through official sources, not through links in the ad.</p>
+    </section>
+
+    <h2 class="section-title">Attacks on businesses and banks</h2>
+    <p class="section-intro">The same tools are aimed at employees, especially anyone who can move money, open accounts, reset passwords, or hire people. If you work at a bank, credit union, or any business that handles payments, these are the patterns to know.</p>
+
+    <section class="card attack">
+      <h3>Deepfake executives on video calls</h3>
+      <p><strong>How it works:</strong> An employee is invited to a "confidential" video meeting with their CFO or CEO, sometimes with other colleagues on the call too. Everyone on the call is a deepfake built from public video. The "executive" asks for an urgent, secret transfer.</p>
+      <div class="case">
+        <p class="case-label">Real case · Arup, Hong Kong, early 2024</p>
+        <p>A finance employee at the engineering firm Arup joined a video call with what looked and sounded like the company's CFO and several colleagues. All of them were deepfakes. The employee put aside their doubts because the people on the call looked like colleagues they recognized, and made 15 transfers totaling about US$25 million.<sup><a href="#src-arup">[8]</a></sup></p>
+      </div>
+      <div class="case">
+        <p class="case-label">Attempt stopped · WPP, May 2024</p>
+        <p>Scammers set up a WhatsApp account with the CEO's public photo and used it to arrange a Microsoft Teams meeting, using a voice clone and YouTube footage to impersonate senior executives. Alert staff stopped it. The CEO's warning to employees: "Just because the account has my photo doesn't mean it's me."<sup><a href="#src-wpp">[9]</a></sup></p>
+      </div>
+      <p>Since 2023, the FBI has also tracked AI-generated voice messages impersonating senior US government officials, used to get targets to move the conversation to another app and hand over account access.<sup><a href="#src-fbi-officials">[10]</a></sup></p>
+      <p class="takeaway"><strong>Defend against it:</strong> No payment is approved on the strength of a call, video, or message alone, however senior the person seems. Verify through a separate channel you already trust, like a known phone number or an in-person check, and require a second approver for large or unusual transfers. Secrecy and urgency are red flags, not reasons to skip the process.</p>
+    </section>
+
+    <section class="card attack">
+      <h3>Beating identity checks (KYC) to open accounts</h3>
+      <p><strong>How it works:</strong> Fraudsters use AI to create fake ID documents, selfies, and videos to pass online account-opening checks. They then use those accounts to move stolen money or commit check, credit card, loan, and unemployment fraud. More advanced attackers feed a deepfake video straight into the verification app with a "virtual camera" instead of holding up a real face.</p>
+      <p>The US Treasury's Financial Crimes Enforcement Network (FinCEN) has seen a rise in bank suspicious activity reports describing deepfakes since 2023, and issued a formal alert to financial institutions in November 2024.<sup><a href="#src-fincen">[11]</a></sup> The identity verification company iProov reported a 704% jump in face-swap attacks on remote identity checks in the second half of 2023, and that virtual camera attacks had become the leading method by 2024.<sup><a href="#src-iproov">[12]</a></sup> In 2024, reporters at 404 Media used a $15 fake passport photo from the "OnlyFake" service to pass the identity check at the crypto exchange OKX.<sup><a href="#src-onlyfake">[2]</a></sup></p>
+      <div class="case">
+        <p class="case-label">FinCEN red flags for financial institutions</p>
+        <ul class="tool-list">
+          <li>The customer's photo looks altered, or doesn't fit their other details (for example, they look much younger or older than their date of birth).</li>
+          <li>The customer's identity documents don't match each other.</li>
+          <li>The customer uses a third-party webcam plugin during a live check, or blames technical glitches and asks to switch to another way of verifying.</li>
+          <li>A reverse-image search of the ID photo matches a gallery of AI-generated faces.</li>
+          <li>Deepfake detection software flags the photo or video, or AI-text detection flags their answers.</li>
+          <li>Their location or device data doesn't match their documents.</li>
+          <li>A new account quickly racks up rapid transactions, payments to risky payees like gambling sites or crypto exchanges, or lots of chargebacks and rejected payments.</li>
+        </ul>
+        <p class="note">One red flag alone doesn't prove fraud. FinCEN asks institutions to use the key term "FIN-2024-DEEPFAKEFRAUD" when filing a related SAR.</p>
+      </div>
+    </section>
+
+    <section class="card attack">
+      <h3>Help desk and password reset calls</h3>
+      <p><strong>How it works:</strong> An attacker calls the IT help desk (or an employee) pretending to be a coworker, and talks them into resetting a password, enrolling a new device, or reading out a one-time code.</p>
+      <div class="case">
+        <p class="case-label">Real case · Retool, August 2023</p>
+        <p>After a phishing text, an employee at the software company Retool got a call from someone claiming to be from IT. The company said the caller "deepfaked our employee's actual voice" and "was familiar with the floor plan of the office, coworkers, and internal processes of the company." The employee handed over a multi-factor code, and the attacker took over 27 customer accounts.<sup><a href="#src-retool">[13]</a></sup></p>
+      </div>
+      <p class="takeaway"><strong>Defend against it:</strong> Never verify identity by voice alone. Call the person back on the number in the company directory, and never read an MFA code to anyone, including IT.</p>
+    </section>
+
+    <section class="card attack">
+      <h3>Fake job candidates</h3>
+      <p><strong>How it works:</strong> Applicants use AI and face-swapping in video interviews to hide who they really are. Once hired, they get access to company systems and data. The FBI warns that North Korean IT workers have used this to land remote jobs at US companies, and in some cases have stolen data and demanded ransom once discovered.<sup><a href="#src-fbi-dprk">[14]</a></sup></p>
+      <p class="takeaway"><strong>Defend against it:</strong> Verify identity during interviews, onboarding, and employment. Do as much of the hiring process in person as possible, and contact past employers and schools directly instead of using the contact details the candidate gives you.</p>
+    </section>
+
+    <section class="card">
+      <h2>Habits that beat deepfakes</h2>
+      <ul class="tool-list">
+        <li><strong>Verify through a channel you already trust.</strong> Hang up and call back on a number you know, not one the caller gives you.</li>
+        <li><strong>Treat urgency and secrecy as warning signs.</strong> "Don't tell anyone" and "it has to happen in the next hour" are pressure tactics.</li>
+        <li><strong>Use code words.</strong> At home, agree on a family phrase. At work, use agreed callback procedures for payments and access changes.</li>
+        <li><strong>Never let one person approve money on one call.</strong> Require a second approver and an out-of-band check for large or unusual payments.</li>
+        <li><strong>Be wary of payment requests by wire, crypto, or gift card</strong> from anyone you haven't verified in person.</li>
+        <li><strong>Share less.</strong> Public photos, videos, and voice recordings are the raw material for deepfakes.</li>
+      </ul>
+      <p class="note">Want to test your eye? <a href="quiz.html">Take the quiz</a> or <a href="check.html">check an image</a> you've been sent.</p>
+    </section>
+
+    <section class="card">
+      <h2>Report it</h2>
+      <ul class="tool-list">
+        <li><strong>In the US:</strong> report to the FBI at <a href="https://www.ic3.gov" target="_blank" rel="noopener">ic3.gov</a> and to the FTC at <a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener">ReportFraud.ftc.gov</a>.</li>
+        <li><strong>If money was sent:</strong> contact your bank immediately. The sooner they know, the better the chance of stopping or recovering the transfer.</li>
+        <li><strong>At work:</strong> tell your security or fraud team right away, even if you're not sure, and even if you already sent money.</li>
+      </ul>
+    </section>
+
+    <section class="card sources">
+      <h2>Sources</h2>
+      <ol>
+        <li id="src-fbi-genai">FBI Internet Crime Complaint Center, <a href="https://www.ic3.gov/PSA/2024/PSA241203" target="_blank" rel="noopener">"Criminals Use Generative Artificial Intelligence to Facilitate Financial Fraud"</a> (I-120324-PSA), December 3, 2024.</li>
+        <li id="src-onlyfake">404 Media, <a href="https://www.404media.co/inside-the-underground-site-where-ai-neural-networks-churns-out-fake-ids-onlyfake/" target="_blank" rel="noopener">"Inside the Underground Site Where 'Neural Networks' Churn Out Fake IDs"</a>, February 5, 2024.</li>
+        <li id="src-hk">The Record, <a href="https://therecord.media/hong-kong-police-bust-romance-scammers-face-swapping-deepfakes" target="_blank" rel="noopener">"Hong Kong police bust fraud ring that used face-swapping tech for romance scams"</a>, October 15, 2024.</li>
+        <li id="src-wired">WIRED, <a href="https://www.wired.com/story/yahoo-boys-real-time-deepfake-scams/" target="_blank" rel="noopener">"The Real-Time Deepfake Romance Scams Have Arrived"</a>, April 18, 2024.</li>
+        <li id="src-ftc-imposter">Federal Trade Commission, <a href="https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025" target="_blank" rel="noopener">"FTC Data Show People Reported Losing $3.5 Billion to Imposter Scams in 2025"</a>, June 15, 2026.</li>
+        <li id="src-ftc-voice">Federal Trade Commission, <a href="https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes" target="_blank" rel="noopener">"Scammers use AI to enhance their family emergency schemes"</a>, March 20, 2023.</li>
+        <li id="src-fbi-sextortion">FBI Internet Crime Complaint Center, <a href="https://www.ic3.gov/PSA/2023/PSA230605" target="_blank" rel="noopener">"Malicious Actors Manipulating Photos and Videos to Create Explicit Content and Sextortion Schemes"</a> (I-060523-PSA), June 5, 2023.</li>
+        <li id="src-arup">CNN, <a href="https://edition.cnn.com/2024/05/16/tech/arup-deepfake-scam-loss-hong-kong-intl-hnk" target="_blank" rel="noopener">"Arup revealed as victim of $25 million deepfake scam involving Hong Kong employee"</a>, May 16, 2024.</li>
+        <li id="src-wpp">The Guardian, <a href="https://www.theguardian.com/technology/article/2024/may/10/ceo-wpp-deepfake-scam" target="_blank" rel="noopener">"CEO of world's biggest ad firm targeted by deepfake scam"</a>, May 10, 2024.</li>
+        <li id="src-fbi-officials">FBI Internet Crime Complaint Center, <a href="https://www.ic3.gov/PSA/2025/PSA250515" target="_blank" rel="noopener">"Senior US Officials Impersonated in Malicious Messaging Campaign"</a> (I-051525-PSA), May 15, 2025, <a href="https://www.ic3.gov/PSA/2025/PSA251219" target="_blank" rel="noopener">updated December 19, 2025</a>.</li>
+        <li id="src-fincen">FinCEN, <a href="https://www.fincen.gov/sites/default/files/shared/FinCEN-Alert-DeepFakes-Alert508FINAL.pdf" target="_blank" rel="noopener">"Alert on Fraud Schemes Involving Deepfake Media Targeting Financial Institutions"</a> (FIN-2024-Alert004), November 13, 2024.</li>
+        <li id="src-iproov">iProov, <a href="https://www.iproov.com/press/new-threat-intelligence-report-exposes-impact-generative-ai-remote-identity-verification" target="_blank" rel="noopener">Threat Intelligence Report 2024</a>, February 7, 2024, and <a href="https://www.iproov.com/reports/threat-intelligence-report-2025-remote-identity-attack" target="_blank" rel="noopener">Threat Intelligence Report 2025</a>. Figures are from the vendor's own data.</li>
+        <li id="src-retool">Retool, <a href="https://retool.com/blog/mfa-isnt-mfa" target="_blank" rel="noopener">"When MFA isn't actually MFA"</a>, September 13, 2023.</li>
+        <li id="src-fbi-dprk">FBI Internet Crime Complaint Center, <a href="https://www.ic3.gov/PSA/2025/PSA250123" target="_blank" rel="noopener">"North Korean IT Workers Conducting Data Extortion"</a> (I-012325-PSA), January 23, 2025.</li>
+      </ol>
+    </section>
+  </main>
+</div>

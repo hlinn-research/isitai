@@ -4,7 +4,7 @@ A no-login, no-backend quiz that trains people to spot AI-generated photos — b
 
 Each quiz is 5 questions. Each question shows 3 images (1 AI-generated, 2 real) in random order and asks the user to pick the AI one. After the 5th question, it shows a score and a short guide to real detection tools and techniques. Progress is tracked per-browser-tab via `sessionStorage` — refreshing resumes the quiz, and "Start a new quiz" clears it and resamples a fresh set of images.
 
-The home page (`index.html`) links to the quiz (`quiz.html`) and the image checker (`check.html`).
+The home page (`index.html`) links to the quiz (`quiz.html`), the image checker (`check.html`), and a page on how attackers use AI (`attacks.html`): real, sourced cases of deepfake romance scams, voice-clone family emergencies, sextortion, executive impersonation, KYC bypass, help desk social engineering, and fake job candidates, with defenses for individuals and for bank and business staff.
 
 `check.html` lets visitors check their own image for AI labels: C2PA Content Credentials (via [`@contentauth/c2pa-web`](https://www.npmjs.com/package/@contentauth/c2pa-web)), IPTC/XMP "digital source type" and other metadata (via [`exifr`](https://www.npmjs.com/package/exifr)), and Stable Diffusion/ComfyUI settings in PNG text chunks. Both libraries load from jsDelivr, and the image itself never leaves the browser.
 
