@@ -1,7 +1,7 @@
 {
   "ai": [
     {
-      "file": "images/ai/24593733-a18c-4b58-b59f-b8100fa4583a.png",
+      "file": "images/ai/bruce_cookies.png",
       "credit": ""
     },
     {
@@ -17,6 +17,10 @@
       "credit": ""
     },
     {
+      "file": "images/ai/mountain.png",
+      "credit": ""
+    },
+    {
       "file": "images/ai/news_desk.png",
       "credit": ""
     },
@@ -29,41 +33,21 @@
       "credit": ""
     },
     {
-      "file": "images/ai/screenshot_2026-09-19.png",
-      "credit": ""
-    },
-    {
       "file": "images/ai/womanwithid.webp",
       "credit": ""
     }
   ],
   "real": [
     {
-      "file": "images/real/15953294365_ca0f371108_b.jpg",
-      "credit": ""
-    },
-    {
-      "file": "images/real/8551937456_9f2c1544d3_w.jpg",
-      "credit": ""
-    },
-    {
-      "file": "images/real/Image_selfie.jpg",
-      "credit": ""
-    },
-    {
       "file": "images/real/Ron_DeSantis_&_Nikki_Haley_(53460469154).jpg",
       "credit": ""
     },
     {
-      "file": "images/real/Will.i.am_at_the_2023_World_Economic_Forum_(52693349529)_(cropped).jpg",
+      "file": "images/real/bridge_vacation.jpg",
       "credit": ""
     },
     {
-      "file": "images/real/african-american-black-models-african-businessman-business-people-preview.jpg",
-      "credit": ""
-    },
-    {
-      "file": "images/real/african-american-smiling-face-african-preview.jpg",
+      "file": "images/real/celebrity.jpg",
       "credit": ""
     },
     {
@@ -71,23 +55,11 @@
       "credit": ""
     },
     {
-      "file": "images/real/female-2835524_1280.jpg",
-      "credit": ""
-    },
-    {
-      "file": "images/real/g-24-press-conference-imf-69ms040423107l-83ede4-1024.jpg",
-      "credit": ""
-    },
-    {
-      "file": "images/real/images.jpeg",
-      "credit": ""
-    },
-    {
       "file": "images/real/laptopwoman.jpg",
       "credit": ""
     },
     {
-      "file": "images/real/new-zealand-young-man-people-8309f8-1024.jpg",
+      "file": "images/real/mountain2.jpg",
       "credit": ""
     },
     {
@@ -95,11 +67,39 @@
       "credit": ""
     },
     {
+      "file": "images/real/press_conference.jpg",
+      "credit": ""
+    },
+    {
       "file": "images/real/roast.jpg",
       "credit": ""
     },
     {
-      "file": "images/real/woman-smiling-female-girl-preview.jpg",
+      "file": "images/real/selfie1.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/selfie2.jpeg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/smile1.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/smile2.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/smile3.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/smile4.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/smiling_woman.jpeg",
       "credit": ""
     }
   ]
