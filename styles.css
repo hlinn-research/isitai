@@ -510,3 +510,37 @@ sup a {
   background: color-mix(in srgb, var(--accent) 12%, transparent);
   border-radius: 6px;
 }
+
+.share {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.qr {
+  flex: none;
+  width: 160px;
+  height: 160px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.share-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+}
+
+.share-text {
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .share {
+    flex-direction: column;
+    text-align: center;
+  }
+}
