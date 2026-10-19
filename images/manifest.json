@@ -28,7 +28,6 @@
       "file": "images/ai/free_cookies_news.png",
       "credit": "",
       "why": [
-        "The news ticker at the bottom has a stray space in \"cookie s,\" a typical slip when AI renders text.",
         "It carries Content Credentials from OpenAI. Run it through Check an image and you'll see the AI label.",
         "The story itself is the biggest clue: a bank CEO announcing free cookies as breaking news."
       ],

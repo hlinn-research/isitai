@@ -119,8 +119,8 @@ h1 {
 
 .option img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
   display: block;
   background: var(--border);
 }
