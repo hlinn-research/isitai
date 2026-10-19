@@ -99,7 +99,11 @@ function renderQuestion() {
       <img src="${opt.file}" alt="Quiz image ${i + 1}" loading="lazy" />
       ${opt.credit ? `<div class="option-caption">${opt.credit}</div>` : ""}
     `;
-    btn.addEventListener("click", () => handleAnswer(i));
+    // Before answering, a click picks the image; after, it opens it full size.
+    btn.addEventListener("click", () => {
+      if (q.answeredIndex === null) handleAnswer(i);
+      else window.open(opt.file, "_blank", "noopener");
+    });
     els.options.appendChild(btn);
   });
 
@@ -126,7 +130,8 @@ function revealAnswer(q) {
   const wasCorrect = q.answeredIndex === aiIndex;
 
   buttons.forEach((btn, i) => {
-    btn.disabled = true;
+    btn.classList.add("answered");
+    btn.title = "Open full size in a new tab";
     if (i === aiIndex) btn.classList.add("reveal-ai");
     if (i === q.answeredIndex) {
       btn.classList.add(wasCorrect ? "correct-pick" : "incorrect-pick");
@@ -181,6 +186,7 @@ function renderWhy(file) {
     els.why.appendChild(p);
   }
 
+  els.why.appendChild(el("p", "note", "Click any image to open it full size in a new tab."));
   els.why.classList.remove("hidden");
 }
 

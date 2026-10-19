@@ -108,13 +108,13 @@ h1 {
   color: inherit;
 }
 
-.option:hover:not(:disabled) {
+.option:hover:not(.answered) {
   border-color: var(--accent);
   transform: translateY(-2px);
 }
 
-.option:disabled {
-  cursor: default;
+.option.answered {
+  cursor: zoom-in;
 }
 
 .option img {

@@ -20,9 +20,12 @@
       "file": "images/ai/family.png",
       "credit": "",
       "why": [
+        "Everything feels staged, like a catalogue shoot: every person is posed perfectly with a camera-ready smile, the lighting is flawless, and the room looks like a furniture showroom rather than a lived-in home.",
+        "The portraits on the walls are generic \"old master\" paintings of the kind AI tools use to signal a wealthy setting.",
         "The text on the book cover on the coffee table is unreadable.",
         "Its metadata labels it as made with a Google AI tool. Check an image will show this label."
-      ]
+      ],
+      "context": "Who is in a photo is never a good clue on its own. Real families come in every combination. Look instead for things that are too perfect or that don't hold together."
     },
     {
       "file": "images/ai/free_cookies_news.png",
@@ -87,7 +90,8 @@
       "file": "images/ai/dough.png",
       "credit": "",
       "why": [
-        "The fingers blend into the dough, and it's hard to tell how many fingers the right hand has."
+        "Count the fingers on the hand on the right side of the picture: there are six.",
+        "The fingers blend into the dough where they press into it."
       ]
     },
     {
