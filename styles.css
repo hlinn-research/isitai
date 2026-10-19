@@ -544,3 +544,29 @@ sup a {
     text-align: center;
   }
 }
+
+.why {
+  margin-top: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  border-left: 4px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+
+.why h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.why .tool-list {
+  margin: 0.25rem 0;
+}
+
+.why-context {
+  line-height: 1.6;
+  margin: 0.5rem 0 0;
+}
+
+.why .note {
+  margin: 0.5rem 0 0;
+}

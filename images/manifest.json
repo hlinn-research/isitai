@@ -2,95 +2,223 @@
   "ai": [
     {
       "file": "images/ai/bruce_cookies.png",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The on-screen caption admits it: \"A fictional satirical promotion.\"",
+        "It carries Content Credentials from OpenAI. Run it through Check an image and you'll see the AI label.",
+        "The logos, station branding, and on-screen text all look right. Today's tools render text well, so the clue is the story itself: a bank CEO announcing free cookies on live TV."
+      ],
+      "context": "Fake news broadcasts featuring real executives are used to promote scams and fake giveaways."
     },
     {
       "file": "images/ai/curly.webp",
-      "credit": ""
+      "credit": "",
+      "why": [],
+      "context": "There are no obvious giveaways here. The skin, hair, and background all hold up to close inspection. That's why visual checks alone aren't enough: a reverse image search and a watermark check are more reliable."
     },
     {
       "file": "images/ai/family.png",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The text on the book cover on the coffee table is unreadable.",
+        "Its metadata labels it as made with a Google AI tool. Check an image will show this label."
+      ]
     },
     {
       "file": "images/ai/free_cookies_news.png",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The news ticker at the bottom has a stray space in \"cookie s,\" a typical slip when AI renders text.",
+        "It carries Content Credentials from OpenAI. Run it through Check an image and you'll see the AI label.",
+        "The story itself is the biggest clue: a bank CEO announcing free cookies as breaking news."
+      ],
+      "context": "Fake news broadcasts featuring real executives are used to promote scams and fake giveaways."
     },
     {
       "file": "images/ai/mountain.png",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "Look closely at the logo patch on the hat: the lettering is slightly off.",
+        "Its metadata labels it as made with a Google AI tool. Check an image will show this label.",
+        "The film-style date stamp and grain make it feel like a casual, authentic snapshot. Effects like these are easy to add, so don't treat them as evidence."
+      ]
     },
     {
       "file": "images/ai/news_desk.png",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The ticker at the bottom falls apart into gibberish: \"No injuries have bed hıaen teported.\"",
+        "It carries Content Credentials from OpenAI. Run it through Check an image and you'll see the AI label."
+      ]
     },
     {
       "file": "images/ai/protest.png",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The small handwritten signs look almost readable, but the words are garbled. AI tools handle large text, like the banner, much better than small text.",
+        "It carries Content Credentials marking it as AI-generated. Check an image will show the label."
+      ]
     },
     {
       "file": "images/ai/rafting.jpg",
-      "credit": ""
+      "credit": "",
+      "why": [],
+      "context": "There are no obvious giveaways here. Even the outfitter's logo on the raft is clean and plausible, because current tools render text and logos well."
     },
     {
       "file": "images/ai/womanwithid.webp",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The text on the ID is mostly gibberish, and the name and address are unreadable.",
+        "Both dates on the card are from 2013, which doesn't fit the adult holding it.",
+        "The signature is an illegible scribble."
+      ],
+      "context": "\"Selfie holding an ID\" images like this are what attackers use to get past online identity checks when opening accounts. See How attackers use AI."
     },
     {
       "file": "images/ai/baby_sloth.png",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The wrinkles on the fingers don't follow the joints the way real skin creases do.",
+        "The thumbnail has an unnatural break running across it."
+      ],
+      "context": "\"Impossibly cute\" animal photos like this are a common way for accounts to build a following quickly, which can later be sold or used for scams."
     },
     {
       "file": "images/ai/dough.png",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The fingers blend into the dough, and it's hard to tell how many fingers the right hand has."
+      ]
     },
     {
       "file": "images/ai/group_photo.png",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The woman on the right has an impossibly long neck."
+      ]
     },
     {
       "file": "images/ai/hands.png",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The interlocked fingers don't add up. Count them and you'll find more than two hands should have, bent in ways real joints can't.",
+        "The row of colored squares in the bottom-right corner is the watermark OpenAI's DALL·E 2 added to its images."
+      ]
     },
     {
       "file": "images/ai/musk-barra.jpeg",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The clasped hands show three thumbs and an impossible arrangement of fingers.",
+        "Elon Musk's facial features are slightly off compared with real photos of him."
+      ],
+      "context": "Realistic images of public figures in situations that never happened can damage reputations, move markets, and spread disinformation."
     },
     {
       "file": "images/ai/paris-trash.jpg",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The road signs are garbled and don't match real French traffic signs.",
+        "Several people's shadows don't line up with the direction of the sunlight."
+      ],
+      "context": "Images like this circulated online as supposed photos of Paris during the 2023 sanitation workers' strike."
     },
     {
       "file": "images/ai/pentagon.png",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The fence and the building blend into each other, fading in and out along their length.",
+        "The lamp post has a faint ghost image that can't be explained by the lighting or the camera."
+      ],
+      "context": "In May 2023, this image spread on social media as a supposed explosion near the Pentagon. It was shared by verified accounts and briefly moved the US stock market before officials confirmed nothing had happened."
     },
     {
       "file": "images/ai/receipt.jpeg",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The two receipts were supposedly printed 24 years apart, yet they share the same store, address, and store number, and have the same pattern of creases.",
+        "The address doesn't exist: there is no Palm Grove Road store in \"Sunset Bay, FL.\"",
+        "The items are generic (\"CHKN BREAST,\" \"COFFEE\") rather than the specific brands and sizes a real receipt lists, and the bananas weigh exactly 3 pounds.",
+        "A watermark check identifies it as made with OpenAI's tools."
+      ],
+      "context": "Viral \"then and now\" comparisons like this are designed to provoke a reaction and get shared. Check before you share."
     },
     {
       "file": "images/ai/rescue.jpg",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "Look closely at her hands around the puppy: the fingers are malformed and hard to count."
+      ],
+      "context": "This image spread widely on social media after Hurricane Helene in 2024 as a supposed photo of the disaster."
     },
     {
       "file": "images/ai/romancer1.jpeg",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "A reverse image search (TinEye) finds the same man in the same shirt in other photos, a hallmark of romance scam profiles.",
+        "The laptop keyboard has too many keys in each row, and the space bar is split into several keys.",
+        "The cables don't make sense: the laptop's cable splits in two, one wire ends in mid-air, and another seems to pass through a notepad.",
+        "The hard hat hangs on a hook on what would be the outside of the door.",
+        "The oil platforms outside are implausibly close together, and the porthole is larger than a ship's porthole would be, with no visible seal against water.",
+        "There's a halo of pixelation around the man, the laptop, and the bed frame, a sign that he was pasted onto a different background.",
+        "A SynthID check finds Google's AI watermark."
+      ],
+      "context": "\"Working on an oil rig\" is a classic romance scam story. It explains why the person can't meet in person and sets up later requests for money."
     },
     {
       "file": "images/ai/shopping_protest.jpeg",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The small text on the bags is gibberish. Look at the Morrisons bag on top of the pile.",
+        "The signs inside the store and on the wall above the trolleys are unreadable.",
+        "The trolley at the far right end of the row is facing backwards and merges into the others.",
+        "The legs of her folding chair don't connect in a way that makes sense.",
+        "The brick corner behind the trolleys gradually disappears as it goes down the wall.",
+        "The \"handwritten\" sign is unusually neat.",
+        "A faint watermark in the top-right corner comes from a humor site, a sign the image may be a joke passed off as real.",
+        "A SynthID check finds Google's AI watermark."
+      ]
     },
     {
       "file": "images/ai/teen_couch.png",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "Count the legs: he has an extra one."
+      ]
     },
     {
       "file": "images/ai/waitress.png",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "Look at her hands: they're feet. She's holding the tray with toes instead of fingers."
+      ],
+      "context": "The red circles are a misdirection. They point at harmless details in the background and pull your eye away from the real giveaway in plain sight. Don't let someone else's annotations decide where you look."
     },
     {
       "file": "images/ai/web_cat.jpeg",
-      "credit": ""
+      "credit": "",
+      "why": [
+        "The chair in front of the cat has two backs, and the back of the cat's chair doesn't line up with its seat.",
+        "The layout doesn't work: a table sits between the bride and the officiant, and the groom is standing behind it instead of beside the bride.",
+        "The floorboard lines disappear in the middle of the aisle.",
+        "The seated guest's leg is misshapen, and the foot melts into the chair.",
+        "The bottom half of the window is out of proportion.",
+        "A watermark check identifies it as made with OpenAI's tools."
+      ],
+      "context": "Heartwarming stories like this are a common kind of engagement bait: images built to be liked and shared."
+    },
+    {
+      "file": "images/ai/joe_hero.jpg",
+      "credit": "",
+      "why": [
+        "The playground equipment doesn't hold together: poles and platforms don't connect the way a real structure would."
+      ],
+      "context": "\"John\" doesn't exist. Ars Technica created him and, using just seven photos, trained an AI model to produce realistic fake images of him in compromising situations, like this shirtless selfie at a children's playground. A handful of public photos is enough to do the same to a real person.",
+      "source": {
+        "title": "Ars Technica, \"AI image generation tech can now create life-wrecking deepfakes with ease\" (December 2022)",
+        "url": "https://arstechnica.com/information-technology/2022/12/thanks-to-ai-its-probably-time-to-take-your-photos-off-the-internet/"
+      }
     }
   ],
   "real": [

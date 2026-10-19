@@ -21,16 +21,21 @@ Drop image files into `images/ai/` and `images/real/`, then list them in `images
 
 `credit` is optional attribution text shown under the image (useful if a license requires it).
 
+AI entries can also explain what gives them away. After each answer, the quiz shows these under "Why it's AI":
+
+```json
+{
+  "file": "images/ai/your-file.jpg",
+  "credit": "",
+  "why": ["Each visible giveaway, one per item."],
+  "context": "Optional background, such as where the image spread or how it's used in scams.",
+  "source": { "title": "Optional article title", "url": "https://..." }
+}
+```
+
+Leave `why` empty when there are no obvious giveaways; the quiz says so.
+
 **Minimum to run:** 1 AI image + 2 real images. **Recommended:** at least 8–10 of each so the 5 questions don't repeat the same images every time, and ideally 15-20 of each so returning users don't quickly memorize the pool.
-
-### Where to get real (non-AI) photos
-
-Use openly-licensed stock photo sites — no attribution legally required, though it's good practice to keep the `credit` field filled in:
-
-- [Unsplash](https://unsplash.com)
-- [Pexels](https://pexels.com)
-- [Pixabay](https://pixabay.com)
-- [Wikimedia Commons](https://commons.wikimedia.org) — check the license per file, most are CC0 or CC-BY
 
 ### Where to get AI-generated photos
 

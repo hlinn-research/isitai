@@ -6,6 +6,7 @@ const els = {
   scoreLabel: document.getElementById("score-label"),
   options: document.getElementById("options"),
   feedback: document.getElementById("feedback"),
+  why: document.getElementById("why"),
   nextBtn: document.getElementById("next-btn"),
   quizSection: document.getElementById("quiz"),
   resultsSection: document.getElementById("results"),
@@ -87,6 +88,8 @@ function renderQuestion() {
   els.options.innerHTML = "";
   els.feedback.classList.add("hidden");
   els.feedback.textContent = "";
+  els.why.classList.add("hidden");
+  els.why.replaceChildren();
   els.nextBtn.classList.add("hidden");
 
   q.options.forEach((opt, i) => {
@@ -136,10 +139,49 @@ function revealAnswer(q) {
     ? "Correct — that one was AI-generated."
     : "Not quite — the highlighted image was the AI-generated one.";
 
+  renderWhy(q.options[aiIndex].file);
+
   els.scoreLabel.textContent = `Score: ${state.score}`;
   els.nextBtn.classList.remove("hidden");
   els.nextBtn.textContent =
     state.currentIndex === NUM_QUESTIONS - 1 ? "See results" : "Next question";
+}
+
+function el(tag, className, text) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text) node.textContent = text;
+  return node;
+}
+
+// Explains what gives the AI image away, from its manifest entry.
+function renderWhy(file) {
+  const entry = manifest.ai.find((e) => e.file === file) || {};
+  const reasons = entry.why || [];
+
+  els.why.replaceChildren(el("h3", null, "Why it's AI"));
+
+  if (reasons.length) {
+    const list = el("ul", "tool-list");
+    reasons.forEach((r) => list.appendChild(el("li", null, r)));
+    els.why.appendChild(list);
+  } else if (!entry.context) {
+    els.why.appendChild(el("p", null, "There are no obvious giveaways in this one. That's why visual checks alone aren't enough."));
+  }
+
+  if (entry.context) els.why.appendChild(el("p", "why-context", entry.context));
+
+  if (entry.source) {
+    const p = el("p", "note", "Source: ");
+    const a = el("a", null, entry.source.title);
+    a.href = entry.source.url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    p.appendChild(a);
+    els.why.appendChild(p);
+  }
+
+  els.why.classList.remove("hidden");
 }
 
 function handleNext() {
