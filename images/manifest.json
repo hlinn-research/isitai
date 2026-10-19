@@ -35,6 +35,62 @@
     {
       "file": "images/ai/womanwithid.webp",
       "credit": ""
+    },
+    {
+      "file": "images/ai/baby_sloth.png",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/dough.png",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/group_photo.png",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/hands.png",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/musk-barra.jpeg",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/paris-trash.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/pentagon.png",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/receipt.jpeg",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/rescue.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/romancer1.jpeg",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/shopping_protest.jpeg",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/teen_couch.png",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/waitress.png",
+      "credit": ""
+    },
+    {
+      "file": "images/ai/web_cat.jpeg",
+      "credit": ""
     }
   ],
   "real": [
@@ -100,6 +156,42 @@
     },
     {
       "file": "images/real/smiling_woman.jpeg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/cafe1.JPG",
+      "credit": ""
+    },
+    {
+      "file": "images/real/cafe2.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/hercules.jpeg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/introverts.jpeg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/jimothy.jpeg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/kangaroo.jpeg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/romance1.jpeg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/romance3.jpg",
+      "credit": ""
+    },
+    {
+      "file": "images/real/wave.jpeg",
       "credit": ""
     }
   ]
